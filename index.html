@@ -1,54 +1,55 @@
 <!DOCTYPE html5>
 <html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width="device-width initial-scale=1.0">
-<title>Simple Calculator</title>
-<link rel="stylesheet" href="styles/main.css">
-</head>
-<body>
-<div class="container-fluid">
-  <div id="calcBody">
-    <h3>CALCULATOR 1.0</h3>
-    <div id="display" class="well">
-      <p id="result"></p>
-    </div>
-    <div id="buttons">
-      <div id="row1" class="row">
-        <button id="clearAll" class="btn-danger">AC</button>
-        <button id="clearLast" class="btn-warning">CE</button>
-        <button id="percent" class="btn-secondary"> % </button>
-   
-        <button value="*" class="btn-secondary calc-btn"> x </button>
-      </div>
-      <div id="row2"class="row">
-        <button value="7" class="btn-secondary calc-btn"> 7 </button>
-        <button value="8" class="btn-secondary calc-btn"> 8 </button>
-        <button value="9" class="btn-secondary calc-btn"> 9 </button>
-        <button value="/" class="btn-secondary calc-btn"> / </button>
-  
-        
-      </div>
-      <div id="row3"class="row">
-        <button value="4" class="btn-secondary calc-btn"> 4 </button>
-        <button value="5" class="btn-secondary calc-btn"> 5 </button>
-        <button value="6" class="btn-secondary calc-btn"> 6 </button>
-        <button value="+" class="btn-secondary calc-btn"> + </button>
-      </div>
-      <div id="row4"class="row">
-        <button value="1" class="btn-secondary calc-btn"> 1 </button>
-        <button value="2" class="btn-secondary calc-btn"> 2 </button>
-        <button value="3" class="btn-secondary calc-btn"> 3 </button>
-        <button value="-" class="btn-secondary calc-btn"> - </button>
-      </div>
-      <div id="row5" class="row">
-        <button id="zero" value="0" class="btn-secondary calc-btn"> 0 </button>
-        <button value="." class="btn-secondary calc-btn"> . </button>
-        <button id="total" class="btn-primary"> = </button>
-      </div>
-    </div>
-  </div>
-</div>
-<script src="scripts/main.js"></script>
-</body>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title>Simple Calculator</title>
+        <link rel="stylesheet" href="styles/main.css">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div id="calcBody">
+                <h3>CALCULATOR 1.0</h3>
+                <div id="display" class="well">
+                    <p id="result"></p>
+                </div>
+                <div id="buttons">
+                    <div id="row1" class="row">
+                        <button id="clearAll" class="btn-danger">AC</button>
+                        <button id="clearLast" class="btn-warning">CE</button>
+                        <button id="percent" class="btn-secondary"> % </button>
+                        <button value="*" class="btn-secondary calc-btn"> x </button>
+                    </div>
+                    <div id="row2"class="row">
+                        <button value="7" class="btn-secondary calc-btn"> 7 </button>
+                        <button value="8" class="btn-secondary calc-btn"> 8 </button>
+                        <button value="9" class="btn-secondary calc-btn"> 9 </button>
+                        <button value="/" class="btn-secondary calc-btn"> / </button>
+                    </div>
+                    <div id="row3"class="row">
+                        <button value="4" class="btn-secondary calc-btn"> 4 </button>
+                        <button value="5" class="btn-secondary calc-btn"> 5 </button>
+                        <button value="6" class="btn-secondary calc-btn"> 6 </button>
+                        <button value="+" class="btn-secondary calc-btn"> + </button>
+                    </div>
+                    <div id="row4"class="row">
+                        <button value="1" class="btn-secondary calc-btn"> 1 </button>
+                        <button value="2" class="btn-secondary calc-btn"> 2 </button>
+                        <button value="3" class="btn-secondary calc-btn"> 3 </button>
+                        <button value="-" class="btn-secondary calc-btn"> - </button>
+                    </div>
+                    <div id="row5" class="row">
+                        <button id="zero" value="0" class="btn-secondary calc-btn"> 0 </button>
+                        <button value="." class="btn-secondary calc-btn"> . </button>
+                        <button id="total" class="btn-primary"> = </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+        <script src="scripts/main.js"></script>
+    </body>
 </html>
