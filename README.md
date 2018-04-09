@@ -1,7 +1,7 @@
 # simple-calculator
 
 # Project Title
-Simple Calculator
+[Simple Calculator](https://ddanskin.github.io/simple-calculator/)
 
 # Motivation
 This project was built to create a simple calculator
