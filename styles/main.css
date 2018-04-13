@@ -1,49 +1,89 @@
 body {
-    padding: 20px;
+    padding: 0;
+    margin: 0;
     background: cornsilk;
+    font-family: monospace;
 }
 
-#calcBody {
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.calcBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     border-width: 5px;
     border-color: turquoise;
     background: teal;
-    padding: 15px;
-    width: 230px;
+    width: 90vw;
+    margin: 2vw;
+    padding: 4vw;
     border-radius: 35px;
 }
 
-h3 {
+.title {
+    display: flex;
+    align-self: center;
     text-align: center;
     color: navy;
+}
+
+.display {
+    display: flex;
+    align-self: center;
+    justify-content: flex-end;
+    background: lightgrey;
+    width: 70vw;
+    height: 10vw;
 }
 
 #result {
+    display: flex;
     text-align: right;
-    height: 20px
+    height: 5vw;
 }
 
-#display {
-    background: lightgrey;
-    font-family: monospace;
-    width: 200px;
-    height: 25px;
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-#buttons {
-    text-align: center;
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
-button {
+.calc-btn, .special-btn {
+    width: 15vw;
+}
+
+.calc-btn, #percent {
     color: navy;
     font-weight: bolder;
-    width: 40px;
     border-radius:5px;
 }
 
+.special-btn {
+    color: #ffffff;
+}
+
+#clearAll {
+    background-color: #D00000;
+}
+
+#clearLast {
+    background-color: #FFBA08;
+}
+
 #total {
-    width: 40px;
+    background-color: #3F88C5;
 }
 
 #zero {
-    width: 80px;
+    width: 30vw;
 }
