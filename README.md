@@ -1,10 +1,6 @@
-# simple-calculator
+# [Simple Calculator](https://ddanskin.github.io/simple-calculator/)
 
-# Project Title
-[Simple Calculator](https://ddanskin.github.io/simple-calculator/)
-
-# Motivation
-This project was built to create a simple calculator
+A simple calculator app that allows user to add, subtract, multiply and divide numbers.
 
 # License
 MIT &copy; ddanskin
